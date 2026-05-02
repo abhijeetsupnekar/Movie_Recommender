@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import joblib
-
+st.set_page_config(layout="wide")
 st.title("Movie Recommender")
 st.write("This is a movie recommender app")
 
